@@ -7,20 +7,20 @@ import java.util.function.Predicate;
 /**
  * Functional interfaces are interfaces with only one method.
  * They are a perfect target for lambda expressions and method reference.
- *
+ * <p>
  * java.util.Function; Contains a lot of functional interfaces.
  */
 public class FunctionalInterfaces {
 
     public static void main(String[] args) {
 
-        List<Integer> integers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+        List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
         System.out.println("Print all numbers");
         evaluate(integers, i -> true);
 
         System.out.println("\nPrint even numbers only");
-        evaluate(integers, i -> i%2 == 0);
+        evaluate(integers, i -> i % 2 == 0);
 
         System.out.println("\nPrint numbers greater than 5");
         evaluate(integers, i -> i > 5);
