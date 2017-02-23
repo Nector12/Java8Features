@@ -1,4 +1,4 @@
-package nector;
+package java8_features;
 
 /**
  * Facilitate functional programming

@@ -1,4 +1,4 @@
-package nector;
+package java8_features;
 
 /**
  * In java 8 interfaces can have default methods, methods with code.
