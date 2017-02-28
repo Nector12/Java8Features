@@ -25,6 +25,7 @@ public class OptionalClass {
     /**
      * Passing a Optional as a parameter shouldn't be done.
      * This is just a example.
+     *
      * @param optParam
      */
     private void optionalParam(Optional<Integer> optParam) {
@@ -38,7 +39,6 @@ public class OptionalClass {
     }
 
     /**
-     *
      * @param b
      * @return a valid string if b == true, else null
      */
