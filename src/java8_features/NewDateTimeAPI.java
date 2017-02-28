@@ -11,7 +11,7 @@ import java.time.Month;
  * Not thread safe
  * Poor design
  * Difficult time zone handling
- * <p>
+ *
  * Created by nector on 28/02/17.
  */
 public class NewDateTimeAPI {
